@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- !---------------------------- NAVBAR START ---------------------------- -->
+    <div class="container">
+      <div class="navbar">
+        <a href="#">
+          <img
+            src="https://vesti.kg/media/k2/items/cache/90e45f279ba8de99a78f430760c42d53_XL.jpg?t=20200527_100543"
+            alt="Логотип Lalafo"
+          />
+        </a>
+        <div class="navbar-l">
+          <a href="#">Для бизнеса</a>
+        </div>
+        <div class="navbar-r">
+          <a href="#">Войти</a>
+          <a href="#">Регистрация</a>
+          <button id="btnCreate">Подать объявление</button>
+        </div>
+      </div>
+      <!-- !---------------------------- NAVBAR FINISH ---------------------------- -->
+      <!-- !---------------------------- MAIN-BAR START ---------------------------- -->
+      <div class="main">
+        <div class="main-bar">
+          <input placeholder="Я ищу..." type="text" id="inpSearch" />
+          <button class="search-button">
+            <img
+              src="https://азбукаинтернета.рф/schoolbook/textbook/module_12/3.3.4.png"
+              alt=""
+            />
+          </button>
+          <div class="btns">
+            <button><img src="./img/все.png" alt="" />Все</button>
+
+            <button><img src="./img/авто.png" alt="" />Транспорт</button>
+
+            <button><img src="./img/домик.png" alt="" />Недвижимость</button>
+
+            <button>
+              <img src="./img/вилка.png" alt="" />Техника и электроника
+            </button>
+
+            <button><img src="./img/цветы.png" alt="" />Дом и сад</button>
+
+            <button><img src="./img/услуги.png" alt="" />Услуги</button>
+
+            <button><img src="./img/работа.png" alt="" />Работа</button>
+
+            <button>
+              <img src="./img/оборудование.png" alt="" />Оборудование для
+              бизнеса
+            </button>
+
+            <button><img src="./img/животные.png" alt="" />Животные</button>
+
+            <button>
+              <img src="./img/профили.png" alt="" />Бизнес-профили
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !---------------------------- MAIN-BAR FINISH ---------------------------- -->
+    <!-- !---------------------------- CENTER START ----------------------------  -->
+    <form id="form1">
+      <h2>Добавить товар</h2>
+      <input id="inp1" class="inp" type="url" placeholder="Изображение" />
+      <input id="inp2" class="inp" type="text" placeholder="Описание" />
+      <input id="inp3" class="inp" type="number" placeholder="Цена" />
+      <button id="btn1" class="btn1">Опубликовать</button>
+    </form>
+    <div id="modal">
+      <form id="form2">
+        <h2>Добавить товар</h2>
+        <input id="inpEdit1" class="inp" type="url" placeholder="Изображение" />
+        <input id="inpEdit2" class="inp" type="text" placeholder="Описание" />
+        <input id="inpEdit3" class="inp" type="number" placeholder="Цена" />
+        <button id="btnEdit" class="btn1">Опубликовать</button>
+        <button id="closeEditModal" class="btn1">X</button>
+        <button id="btnSave" type="submit" class="btn1">save changes</button>
+      </form>
+    </div>
+    <!-- <div id="modal"> -->
+    <!-- <img id="modalLeft" src="" alt="" />
+      <div id="modal-r">
+        <button id="closeBtn">X</button>
+        <div id="modalRight">
+          <h2>Name Surname</h2>
+          <h3>1000$</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique
+            debitis ut error tempore dignissimos, odio quas sunt fugiat harum
+            libero in rerum recusandae, modi nesciunt, numquam provident.
+            Eligendi, labore?
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <section class="container main-cards">
+      <div class="cards-container">
+        <!-- <div class="card-profile">
+              <img src="" alt="" />
+              <h4>lorem</h4>
+              <span>129</span>
+            </div> -->
+      </div>
+    </section>
+    <div class="container">
+      <div class="twobtn">
+        <button id="prevBtn" class="btn btnOne active"><</button>
+        <button id="nextBtn" class="btn btnTwo">></button>
+
+        <!-- need to link fontawesome...  -->
+        <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <!-- need to link fontawesome...  -->
+      </div>
+    </div>
+    <!-- !---------------------------- CENTER FINISH ---------------------------- -->
+    <!-- !---------------------------- START FOOTER ---------------------------- -->
+    <div class="foot">
+      <div class="main-foot">
+        <div class="foot-l">
+          <a href="#">
+            <img
+              src="https://vesti.kg/media/k2/items/cache/90e45f279ba8de99a78f430760c42d53_XL.jpg?t=20200527_100543"
+              alt="Логотип Lalafo"
+            />
+          </a>
+        </div>
+        <p>© 2023 Все права защищены</p>
+        <!-- <div class="foot-r">
+          <a href="#">Websites</a>
+          <a href="#">Карта сайта</a>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/lalafo.kg"
+                ><img src="./img/face.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/lalafo_kg"
+                ><img src="./img/twit.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/lalafo.kg/"
+                ><img src="./img/inst.png"
+              /></a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <!-- !---------------------------- FINISH FOOTER ---------------------------- -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

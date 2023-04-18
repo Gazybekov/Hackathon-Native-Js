@@ -1,0 +1,723 @@
+/* ! ========================== NAVBAR START ========================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  background-image: url(https://img5.lalafo.com/i/banners/4f/9d/d8/26a9a0eb698529e695ed84c6ea.jpeg);
+  background-position: center top;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/** Стили для навигационной панели */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 70px;
+  padding: 0 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  height: 40px;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 20px;
+  transition: color 0.2s ease;
+}
+
+.navbar a:first-child {
+  margin-left: 0;
+}
+
+.navbar a:hover {
+  color: #ff5a5f;
+}
+
+.navbar button {
+  border: none;
+  background-color: #ff5a5f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navbar button:hover {
+  background-color: #db3b3f;
+}
+.navbar-l {
+  float: left;
+  margin-right: 500px;
+}
+
+.navbar-r {
+  margin-right: 20px;
+}
+
+.navbar img:hover {
+  filter: hue-rotate(90deg);
+}
+/* ! ========================== NAVBAR FINISH ========================== */
+
+/* ! ========================== MAIN-BAR START ========================== */
+
+.main-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  height: 160px;
+  padding: 0 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(9, 212, 9);
+}
+
+.main-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  margin-top: 30px;
+}
+
+.main-bar input::placeholder {
+  color: rgb(227, 222, 222);
+}
+
+.main-bar input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 90, 95, 0.2);
+}
+
+/** лупа */
+
+.search-button {
+  background-color: white;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.2s ease-in-out;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.search-button img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.search-button:hover {
+  background-color: whitesmoke;
+}
+
+/** кнопки */
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btns button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.btns button img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+/* ! ========================== MAIN-BAR FINISH ========================== */
+
+/* ! ========================== CENTER START ========================== */
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* max-height: 100px; */
+  background-color: white;
+}
+
+/* ! ========================== CENTER FINISH ========================== */
+
+/* ! ========================== START FOOTER ========================== */
+.foot {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.foot img {
+  transition: all 0.3s ease-in-out;
+}
+.foot img:hover {
+  filter: hue-rotate(90deg);
+}
+
+.main-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foot-l {
+  flex: 0 0 100px;
+}
+
+.foot p {
+  margin-right: 300px;
+}
+
+.foot-l img {
+  max-width: 100%;
+}
+
+.foot-r {
+  display: flex;
+  align-items: center;
+}
+
+.foot-r a {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.foot-r a:hover {
+  color: #000;
+}
+
+.foot-r ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-r li {
+  margin-right: 10px;
+}
+
+.foot-r li:last-child {
+  margin-right: 0;
+}
+
+.foot-r li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.foot-r li a:hover {
+  transform: translateY(-3px);
+}
+.foot-r img {
+  height: 20px;
+  width: 20px;
+}
+
+#form1 {
+  width: 450px;
+  display: none;
+  height: 450px;
+  background-color: rgb(9, 188, 9);
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#form2 {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  display: none;
+  height: 450px;
+  background-color: rgb(9, 188, 9);
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#modalRight p {
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+#btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.buyBtn:hover {
+  background-color: #fff;
+  color: #6e9c9f;
+  border: 2px solid #6e9c9f;
+  transition: 0.3s;
+}
+
+.buyBtn {
+  padding: 22px 50px;
+  background: #6e9c9f;
+  width: 180px;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+#closeBtn {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  width: 30px;
+  margin-left: 450px;
+  color: #4e3a14;
+}
+
+.inp {
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px 0px 0px 4px;
+  text-align: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 164px;
+  height: 52px;
+  border: 1px solid #794cff;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.card-profile {
+  width: 350px;
+  height: 658px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-profile img {
+  width: 75%;
+  height: 40%;
+}
+
+.card-profile h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 20px;
+  transition: color 0.2s ease;
+}
+.btn1 {
+  border: none;
+  background-color: #ff5a5f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn23 {
+  border: none;
+  background-color: #ff5a5f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.card-profile span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: black;
+  margin-bottom: 10px;
+}
+.twobtn {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+  justify-content: center;
+  gap: 1em;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+.btn {
+  width: 41px;
+  height: 41px;
+  border: 2px solid black;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+/* ! ========================== FINISH FOOTER ========================== */
+
+/* ! ========================== ADAPTIVITY FOR 768px ========================== */
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: rgb(9, 212, 9);
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .navbar-l {
+    margin: 0 auto;
+  }
+  .navbar img {
+    margin-top: 0;
+  }
+  .navbar button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .main-bar {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-bar input {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .search-button {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .btns {
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .btns button {
+    margin-bottom: 20px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot p {
+    margin: 0 auto;
+  }
+
+  .foot-l {
+    margin-bottom: 20px;
+  }
+
+  .main-foot {
+    flex-direction: column;
+  }
+
+  .foot-l img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .foot-r {
+    text-align: center;
+  }
+
+  .foot-r ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .foot-r li {
+    margin: 0 10px;
+  }
+
+  .foot-r img {
+    width: 30px;
+    max-width: 20px;
+  }
+}
+/* ! ========================== ADAPTIVITY FOR 768px ========================== */
+
+/* ! ========================== ADAPTIVITY FOR 425px ========================== */
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-l {
+    display: none;
+  }
+
+  .navbar-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .navbar-r button {
+    margin-top: 10px;
+  }
+}
+
+/* ! ========================== ADAPTIVITY FOR 425px ========================== */
+
+/* ! ========================== ADAPTIVITY FOR 375px ========================== */
+@media screen and (max-width: 375px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-l {
+    display: none;
+  }
+
+  .navbar-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .navbar-r button {
+    margin-top: 10px;
+  }
+}
+/* ! ========================== ADAPTIVITY FOR 375px ========================== */
+
+/* ! ========================== ADAPTIVITY FOR 320px ========================== */
+@media screen and (max-width: 320px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .navbar img {
+    width: 50px;
+  }
+
+  .navbar-r {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .navbar-r button,
+  .navbar-r a {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+  }
+  .foot {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .main-foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot-l {
+    margin-bottom: 10px;
+  }
+
+  .foot-l img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .foot-r {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot-r a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .foot-r ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot-r li {
+    margin-right: 5px;
+  }
+
+  .foot-r li:last-child {
+    margin-right: 0;
+  }
+
+  .foot-r img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.search-button {
+  background-color: white;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.2s ease-in-out;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.search-button img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.search-button:hover {
+  background-color: whitesmoke;
+}
+
+/** кнопки */
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btns button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.btns button img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+#btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+/* ! ========================== ADAPTIVITY FOR 320px ========================== */

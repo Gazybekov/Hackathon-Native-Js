@@ -1,0 +1,64 @@
+{
+  "shop": [
+    {
+      "image": "https://avatars.dzeninfra.ru/get-zen_doc/164147/pub_5c9e7467c604dc021df31aa5_5c9e755a72723e00b331c2ea/scale_1200",
+      "description": "Мустанг",
+      "price": "43000",
+      "id": 1
+    },
+    {
+      "image": "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x500.jpg",
+      "description": "Дом",
+      "price": "23000",
+      "id": 2
+    },
+    {
+      "image": "https://sk-mv.ru/upload/resize_cache/iblock/e54/800_615_2110042bfb1e3aab198bd6722eb26230a/sk_mv.ru_project_Kirpolie_HOME.jpg",
+      "description": "Дом",
+      "price": "5000",
+      "id": 3
+    },
+    {
+      "image": "https://sk-mv.ru/upload/resize_cache/iblock/e54/800_615_2110042bfb1e3aab198bd6722eb26230a/sk_mv.ru_project_Kirpolie_HOME.jpg",
+      "description": "дом",
+      "price": "10000",
+      "id": 4
+    },
+    {
+      "image": "https://www.ccnova.ru/images/blog/sovremennye-doma/sovremennyj-dom-4.jpg",
+      "description": "Дом",
+      "price": "10000",
+      "id": 5
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "description": "Яхта",
+      "price": "1000000",
+      "id": 6
+    },
+    {
+      "image": "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x500.jpg",
+      "description": "Мак",
+      "price": "5000",
+      "id": 7
+    },
+    {
+      "image": "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x500.jpg",
+      "description": "Мак",
+      "price": "200",
+      "id": 8
+    },
+    {
+      "image": "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x500.jpg",
+      "description": "Мак",
+      "price": "5000",
+      "id": 9
+    },
+    {
+      "image": "https://login.kg/image/cache/catalog/new/Notebook/Apple/MacBook%20Pro%202020%20M1/2-500x500.jpg",
+      "description": "Мак",
+      "price": "5000",
+      "id": 10
+    }
+  ]
+}
